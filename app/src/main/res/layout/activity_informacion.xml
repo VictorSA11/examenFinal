@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:paddingLeft="100dp"
+        android:paddingTop="10dp"
+        android:text="INFORMACION DE USUARIOS"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="NOMBRE"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtNombreU"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="55dp"
+            android:text="EDAD"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtEdadU"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="CORREO"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtCorreoU"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="FOTO"
+
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="600dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabBoton5"
+            android:layout_width="72dp"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/sig"
+            app:backgroundTint="#00965D5D" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabBoton2"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/home"
+            app:backgroundTint="#00965D5D" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
